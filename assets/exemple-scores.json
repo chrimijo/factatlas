@@ -1,0 +1,30 @@
+{
+  "note": "EXEMPLE FICTIF POUR TESTER LE CALCUL ; NE PAS UTILISER COMME RESULTAT D'UNE RECHERCHE",
+  "sections": [
+    {
+      "nom": "Identification",
+      "poids": 20,
+      "confiance": 95,
+      "couverture": 90
+    },
+    {
+      "nom": "Histoire",
+      "poids": 25,
+      "confiance": 90,
+      "couverture": 80
+    },
+    {
+      "nom": "Produits",
+      "poids": 30,
+      "confiance": 90,
+      "couverture": 70
+    },
+    {
+      "nom": "Finances",
+      "poids": 25,
+      "confiance": 70,
+      "couverture": 40
+    }
+  ],
+  "lang": "fr"
+}

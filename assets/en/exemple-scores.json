@@ -1,0 +1,30 @@
+{
+  "note": "FICTIONAL ARITHMETIC TEST DATA; NOT RESEARCH RESULTS",
+  "lang": "en",
+  "sections": [
+    {
+      "name": "Identification",
+      "weight": 20,
+      "confidence": 95,
+      "coverage": 90
+    },
+    {
+      "name": "History",
+      "weight": 25,
+      "confidence": 90,
+      "coverage": 80
+    },
+    {
+      "name": "Products",
+      "weight": 30,
+      "confidence": 90,
+      "coverage": 70
+    },
+    {
+      "name": "Finance",
+      "weight": 25,
+      "confidence": 70,
+      "coverage": 40
+    }
+  ]
+}

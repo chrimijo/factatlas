@@ -1,0 +1,23 @@
+# Final checklist
+
+- [ ] Exact subject, category, subtype, homonyms and scope established.
+- [ ] Appropriate modules/specializations loaded; requested mode respected.
+- [ ] Output language selected under [language policy](langues.md), with explicit `--lang` taking priority.
+- [ ] Every heading, field, table, source label, status, audit note and limitation uses the selected language; original names, titles and quotations remain authentic and translations labeled.
+- [ ] French, English and relevant original-language research actually performed or access gaps disclosed; originals checked, translations not counted as independent evidence.
+- [ ] Recommended model/effort distinguished from verifiable active model; interface correctly qualified; no fictitious model change.
+- [ ] External research actually performed or absence disclosed; verification date identifiable.
+- [ ] Relevant accessible Wikipedia article used as an index; useful cited originals actually opened and evaluated.
+- [ ] Decisive claims cited nearby; no unread source claimed as consulted.
+- [ ] Primary evidence sought, independent corroboration where necessary, quotations authenticated within requested maximum.
+- [ ] Identification first, no redundant identity table; overview exactly four sentences.
+- [ ] Timeline separates announcement, launch, manufacture, availability, discontinuation and acquisition phases.
+- [ ] Works/products/references/variants inventory has explicit completeness boundaries.
+- [ ] Numbers dated with units, standards, fiscal years, regions and comparable scopes.
+- [ ] Significant discrepancies show sources, values, definitions and justified choice or non-adjudication; status code recorded.
+- [ ] No unmarked extrapolation of failure rates, prices, production, GDP, population or revenue.
+- [ ] Disputes, legal risks and sensitive information attributed with procedural status and care.
+- [ ] Confidence and coverage distinct; published weights total 100; arithmetic consistent; no false precision or forced scores.
+- [ ] Any illustration matches the subject and has verified provenance; no invented rights or identity.
+- [ ] Actual sources, gaps and unresolved contradictions disclosed without unsupported completeness claims.
+- [ ] Links come from consulted material; no invented source, reading, technical check or model switch.
