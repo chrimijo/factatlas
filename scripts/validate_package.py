@@ -27,18 +27,18 @@ def validate(root=ROOT):
     for name in required:
         if not (root/name).is_file():
             errors.append(name)
-    if (root/'VERSION').is_file() and (root/'VERSION').read_text().strip() != '1.1.0':
-        errors.append('VERSION != 1.1.0')
+    if (root/'VERSION').is_file() and (root/'VERSION').read_text().strip() != '1.1.1':
+        errors.append('VERSION != 1.1.1')
     if (root/'SKILL.md').is_file():
         skill = (root/'SKILL.md').read_text(encoding='utf-8')
-        if not re.match(r'\A---\nname: fact-atlas\ndescription: [^\n]+\n---\n',skill):
+        if not re.match(r'\A---\nname: factatlas\ndescription: [^\n]+\n---\n',skill):
             errors.append('SKILL.md: frontmatter')
         for name in ['references/langues.md','references/en/langues.md','assets/en/gabarit-fiche.md']:
             if name not in skill:
                 errors.append('SKILL.md: '+name)
     for name in ['SKILL.md','README.md','README.en.md','CHANGELOG.md','CHANGELOG.en.md']:
-        if (root/name).is_file() and '1.1.0' not in (root/name).read_text():
-            errors.append(name+': 1.1.0')
+        if (root/name).is_file() and '1.1.1' not in (root/name).read_text():
+            errors.append(name+': 1.1.1')
     for p in root.rglob('*.md'):
         for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',p.read_text(encoding='utf-8')):
             if '://' in target or target.startswith('#'):
@@ -62,8 +62,8 @@ def main():
         for error in errors:
             print(error,file=sys.stderr)
         return 1
-    print('OK — FactAtlas v1.1.0: structure, language pairs and local links valid.' if lang=='en'
-          else 'OK — FactAtlas v1.1.0 : structure, paires linguistiques et liens locaux valides.')
+    print('OK — FactAtlas v1.1.1: structure, language pairs and local links valid.' if lang=='en'
+          else 'OK — FactAtlas v1.1.1 : structure, paires linguistiques et liens locaux valides.')
     return 0
 
 if __name__=='__main__':

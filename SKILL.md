@@ -1,9 +1,9 @@
 ---
-name: fact-atlas
+name: factatlas
 description: Recherche et rédaction encyclopédique sourcée sur des personnalités, entreprises, marques, produits (dont moteurs et montres), lieux, monuments et pays. Utiliser pour « FactAtlas [sujet] », fiches d'investigation, comparaisons, vérification documentaire, historiques, caractéristiques techniques et contradictions entre sources. Sourced encyclopedic research on people, companies, brands, products, places, monuments and countries. Bilingual French/English reports; automatic user-language detection with priority --lang fr|en.
 ---
 
-# FactAtlas — v1.1.0
+# FactAtlas — v1.1.1
 
 ## Finalité
 
@@ -11,7 +11,7 @@ Créer une fiche encyclopédique **exacte, neutre, traçable et aussi complète 
 
 ## Déclenchement et paramètres
 
-- Activation explicite : `FactAtlas [sujet]`, `$fact-atlas`, « utilise FactAtlas », ou demande correspondante de fiche encyclopédique sourcée.
+- Activation explicite : `FactAtlas [sujet]`, `$factatlas`, « utilise FactAtlas », ou demande correspondante de fiche encyclopédique sourcée.
 - `type=auto` : `personnalite|entreprise|marque|produit|lieu|monument|pays` ; combiner si nécessaire (entreprise + marque + produits, monument + lieu).
 - `mode=STANDARD` par défaut, ou `INVESTIGATION`, `TECHNIQUE`, `HISTORIQUE`, `COMPARAISON`.
 - `inventaire=detaille` par défaut ; `integral` si demandé (ne jamais proclamer l'exhaustivité non démontrée).
@@ -72,7 +72,7 @@ La documentation française figure dans `README.md`, la documentation anglaise d
 
 ---
 
-# English instructions — FactAtlas v1.1.0
+# English instructions — FactAtlas v1.1.1
 
 These instructions are equivalent to the French workflow above. For English output, read the relevant English resources instead of loading both language versions. The bilingual language contract governs presentation throughout.
 
@@ -80,7 +80,7 @@ These instructions are equivalent to the French workflow above. For English outp
 
 Produce accurate, neutral, traceable encyclopedic reports as complete as the evidence allows. This skill provides a method; it does not install browsing tools or switch models.
 
-Invoke with `FactAtlas [subject]`, `$fact-atlas`, or a matching sourced encyclopedic request. `type=auto` selects people, companies, brands, products, places, monuments or countries; combine modules where appropriate. Existing French type codes remain accepted. Default `mode=STANDARD`; other stable codes are `INVESTIGATION`, `TECHNIQUE`, `HISTORIQUE`, `COMPARAISON`. Accept ordinary English mode descriptions (technical, historical, comparison) and map them to those same codes. Default detailed inventory; an integral inventory still needs demonstrable boundaries. Use actual research date and dated data. Defaults: five authenticated quotations (not a limit on documentary citations), five available financial years and automatic model recommendation. Prompt flags are natural-language conventions, not shell commands.
+Invoke with `FactAtlas [subject]`, `$factatlas`, or a matching sourced encyclopedic request. `type=auto` selects people, companies, brands, products, places, monuments or countries; combine modules where appropriate. Existing French type codes remain accepted. Default `mode=STANDARD`; other stable codes are `INVESTIGATION`, `TECHNIQUE`, `HISTORIQUE`, `COMPARAISON`. Accept ordinary English mode descriptions (technical, historical, comparison) and map them to those same codes. Default detailed inventory; an integral inventory still needs demonstrable boundaries. Use actual research date and dated data. Defaults: five authenticated quotations (not a limit on documentary citations), five available financial years and automatic model recommendation. Prompt flags are natural-language conventions, not shell commands.
 
 ## Language contract
 

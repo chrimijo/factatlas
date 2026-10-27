@@ -162,7 +162,7 @@ class BundleTests(unittest.TestCase):
         # Exercise a real packaging failure in an isolated copy.
         import shutil
         with tempfile.TemporaryDirectory() as d:
-            root=Path(d)/'fact-atlas';shutil.copytree(ROOT,root)
+            root=Path(d)/'factatlas';shutil.copytree(ROOT,root)
             (root/'references/en/modules/pays.md').unlink()
             self.assertIn('references/en/modules/pays.md',package.validate(root))
 
